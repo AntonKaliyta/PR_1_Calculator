@@ -77,6 +77,8 @@ def main_menu():
                 print(f_fibonacci(int(input('Введите длинну последовательности Фибоначчи: '))))
             case "10":
                 play = False
+            case _:
+                print('Укажите операцию ')
 
 
 main_menu()
